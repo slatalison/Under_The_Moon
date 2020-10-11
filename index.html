@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Remix</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="total.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div id = "title">
+      <h1><a href="index.html">Drinking Alone by Moonlight</a></h1>
+      <p>★Click on the cells to set styles<br>★Click on the heading to clear changes</p>
+      <p>★Pitch: pitch height in modern Chinese;<br>★Tone: tone pattern in old Chinese poetry composition; <br>★Grammar: noun, verb, adjective, functional; <br>★Semantic: topic, image, emotion.</p>
+      <p class = "smaller"><i>Original poem by Li Bai (A.D. 701~762)<br>Translation by Arthur Waley(1919)</i></p>
+    </div>
+    <div id="poemFrame">
+      <div class="switch" id="poemContainer"></div>
+    </div>
+    <div id="panel">
+      <div id="horizontal">
+        <div class="cellH"></div>
+        <div class="cellH"><span>Opacity</span></div>
+        <div class="cellH"><span>Size</span></div>
+        <div class="cellH"><span>Blur</span></div>
+        <div class="cellH"><span>Spacing</span></div>
+        <div class="cellH"><span>Color</span></div>
+      </div>
+      <div id="vertical">
+        <div class="cellV"><span>Pitch</span></div>
+        <div class="cellV"><span>Tone</span></div>
+        <div class="cellV"><span>Grammar</span></div>
+        <div class="cellV"><span>Semantic</span></div>
+      </div>
+      <div id="pagePanel"></div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts.js" async defer></script>
+  </body>
+</html>

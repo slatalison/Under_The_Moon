@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "苏新诗柳楷";
+  src: url("./方正苏新诗柳楷简体.TTF");
+}
+
+#pagePanel {
+  /* position: absolute;
+  left: 160px;
+  width: 360px; */
+}
+
+#panel {
+  position: absolute;
+  left: 284px;
+  top: 340px;
+  width: 336px;
+  background-color: rgba(138, 188, 209, 0.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+  font-family: "Dosis", sans-serif;
+}
+
+#panel p {
+  color: rgba(245, 245, 245, 0.6);
+}
+
+#panel span {
+  color: rgba(245, 245, 245, 0.4);
+  font-family: "Dosis", sans-serif;
+}
+
+.pageButtons {
+  display: inline-block;
+  height: 47px;
+  width: 47.5px;
+  margin: 4px;
+  font-size: small;
+  text-align: center;
+  box-sizing: border-box;
+  border: 0.1em solid #ffffff;
+  border-color: rgba(205, 209, 211, 0.1);
+  background-color: rgba(138, 188, 209, 0.04);
+  line-height: 47px;
+}
+
+.pageButtons p {
+  margin: 0;
+  padding: 0;
+}
+
+.pageButtons :hover {
+  background-color: rgba(138, 188, 209, 0.2);
+}
+
+
+#poemFrame {
+  position: fixed;
+  right: 160px;
+  top: 50px;
+  height: 90%;
+  bottom: 20px;
+  width: 600px;
+  /* background-color: cornsilk; */
+}
+
+.charas {
+  display: inline;
+  letter-spacing: 10px;
+  font-size: 26px;
+  color: rgb(205, 209, 211);
+  text-align: center;
+  font-family: "苏新诗柳楷";
+  vertical-align: bottom;
+}
+
+.translation {
+  font-size: small;
+  margin-bottom: 28px;
+  color: rgba(205, 209, 211, 0.3);
+  font-family: "Dosis", sans-serif;
+  vertical-align: top;
+}
+
+body {
+  height: 97.5vh;
+  background-color: rgb(19, 36, 51);
+  background-image: linear-gradient(rgb(19, 36, 51), rgb(17, 36, 48));
+}
+
+.cellH {
+  float: left;
+  height: 36px;
+  width: 56px;
+  font-size: small;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.cellV {
+  height: 36px;
+  width: 50px;
+  font-size: small;
+  margin-top: 20px;
+  padding-left: 6px;
+}
+
+#horizontal {
+  float: right;
+}
+
+#vertical {
+  float: left;
+}
+
+#title{
+  position: absolute;
+  left: 284px;
+  top: 40px;
+  width: 336px;
+  font-family: "Commissioner", sans-serif;
+}
+
+h1 {
+  font-weight: 200;
+  position: relative;
+  top:0;
+  margin:0;
+  padding-top: 5px;
+
+}
+
+h1 a{
+  color:rgb(252,209,16);
+  text-decoration: none;
+}
+
+#title p{
+  color:rgba(252,209,16, 0.3);
+  font-size: small;
+}
+
+.smaller{
+  font-size: small;
+  opacity: 0.7;
+}
